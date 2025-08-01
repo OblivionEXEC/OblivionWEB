@@ -1,7 +1,5 @@
 name = "oblivion"
-type = "webpack"
+main = "worker.js"
 compatibility_date = "2025-08-01"
 
-[site]
-bucket = "./public"
-entry-point = "workers-site"
+assets = { directory = "./dist" }
